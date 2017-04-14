@@ -1,7 +1,7 @@
 var a = require('awareness');
 var fs = require("fs");
 
-a.Neuron.setDB({host:'192.168.0.125'});
+a.Neuron.setDB({host:'192.168.0.134'});
 
 a.Neuron.projectPath = __dirname;
 
