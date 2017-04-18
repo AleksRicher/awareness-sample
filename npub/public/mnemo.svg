@@ -14,16 +14,17 @@
             data-eval="me.text(neuron.name);"
             style="stroke:none;fill-opacity:1;fill:#ffffff;opacity:1;">name</text>
 
-    <g data-child="valve1" transform="translate(25,30) scale(0.9,0.9)" />
+    <g data-child="valve1" transform="translate(10,40) scale(0.2,0.2)" />
     <g data-child="valve2" transform="translate(95,30) scale(0.9,0.9)" />
     <g data-child="valve3" transform="translate(170,30) scale(0.9,0.9)" />
 
     <g >
-        <rect x="80.25" y="80.25" width="80.5" height="80.5" fill="green" stroke-width="10.5"/>
-        <circle cx="9.5" cy="9.5" r="2.4" stroke="green" stroke-width="5.05"/>
-        <line stroke="red" stroke-width="9.08" x1="19.18" y1="19.5" x2="19.38" y2="19.5"/>
-        <line stroke="red" stroke-width="9.12" x1="19.38" y1="19.3" x2="19.38" y2="19.7"/>
-        <line stroke="red" stroke-width="9.08" x1="19.56" y1="19.18" x2="19.56" y2="19.82"/>
-        <line stroke="red" stroke-width="9.08" x1="19.56" y1="19.5" x2="19.82" y2="19.5"/>
+
+        <line stroke="lime" stroke-width="9.08" x1="29.18" y1="29.5" x2="29.38" y2="29.5"/>
+        <line stroke="lime" stroke-width="9.08" x1="29.56" y1="29.5" x2="29.82" y2="29.5"/>
+
+        <line stroke="gold" stroke-width="50.08" x1="19" y1="19.5" x2="19" y2="19.5"/>
+        <line stroke="gold" stroke-width="50.08" x1="19.7" y1="19.9" x2="19" y2="19.9"/>
+
     </g>
 </svg>

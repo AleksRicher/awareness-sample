@@ -10,7 +10,7 @@ var users = JSON.parse(fs.readFileSync(a.Neuron.projectPath + '/users.json', "ut
 
 var node = new a.Neuron({
     name: "Узел редуцирования газа", children: {
-        valve1: new a.Valve({name: "Кран1"}),
+        valve1: new a.Valve({name: "Кран №1"}),
         csd: new a.CSD({name: "Сигнализация"})
     }
 });
